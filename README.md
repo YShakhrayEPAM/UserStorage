@@ -59,18 +59,18 @@ We encourage you to practice TDD and actively use Git during this exersise. Here
 
 ## Prepare
 
-- [ ] [Create a new repository](https://github.com/new) on github. Move all content of the master branch in this repository to your new repository.
+- [x] [Create a new repository](https://github.com/new) on github. Move all content of the master branch in this repository to your new repository.
 
-- [ ] Install [StyleCop](https://github.com/StyleCop/StyleCop) or [Visual StyleCop](https://www.youtube.com/watch?v=0OMuzHRrScw). Open UserStorage solution and run StyleCop to check your code and to make sure that there are no code issues.
+- [x] Install [StyleCop](https://github.com/StyleCop/StyleCop) or [Visual StyleCop](https://www.youtube.com/watch?v=0OMuzHRrScw). Open UserStorage solution and run StyleCop to check your code and to make sure that there are no code issues.
 
-- [ ] [Configure your local git repository](https://git-scm.com/book/ru/v1/Введение-Первоначальная-настройка-Git) using your EPAM user name and email.
+- [x] [Configure your local git repository](https://git-scm.com/book/ru/v1/Введение-Первоначальная-настройка-Git) using your EPAM user name and email.
 
 ```sh
 $ git config --global user.name "Aliaksandr Rykau"
 $ git config --global user.email Aliaksandr_Rykau@epam.com
 ```
 
-- [ ] Check unstaged files in your repository.
+- [x] Check unstaged files in your repository.
 
 ```sh
 $ git status
@@ -83,7 +83,7 @@ Untracked files:
 ...
 ```
 
-- [ ] Add files to the [staging area](https://git-scm.com/book/ru/v1/Введение-Основы-Git#Три-состояния). Check status of staged files.
+- [x] Add files to the [staging area](https://git-scm.com/book/ru/v1/Введение-Основы-Git#Три-состояния). Check status of staged files.
 
 ```sh
 $ git add *
@@ -91,7 +91,7 @@ $ git status
 ...
 ```
 
-- [ ] Review changes using [git diff](https://git-scm.com/book/ru/v1/Основы-Git-Запись-изменений-в-репозиторий#Просмотр-индексированных-и-неиндексированных-изменений). (Notice that **git diff** doesn't return any changes anymore.)
+- [x] Review changes using [git diff](https://git-scm.com/book/ru/v1/Основы-Git-Запись-изменений-в-репозиторий#Просмотр-индексированных-и-неиндексированных-изменений). (Notice that **git diff** doesn't return any changes anymore.)
 
 ```sh
 $ git diff
@@ -100,7 +100,7 @@ $ git diff --staged
 (changes output)
 ```
 
-- [ ] [Commit](https://git-scm.com/book/ru/v1/Основы-Git-Запись-изменений-в-репозиторий) and publish all changes. Check status.
+- [x] [Commit](https://git-scm.com/book/ru/v1/Основы-Git-Запись-изменений-в-репозиторий) and publish all changes. Check status.
 
 ```sh
 $ git commit -m "Add UserStorage template."
@@ -110,7 +110,7 @@ On branch master
 nothing to commit, working directory clean
 ```
 
-- [ ] Edit README.md and mark all checkboxes in this section. Check status and review changes. Commit changes.
+- [x] Edit README.md and mark all checkboxes in this section. Check status and review changes. Commit changes.
 
 ```sh
 $ git status
